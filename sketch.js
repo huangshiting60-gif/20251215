@@ -271,7 +271,7 @@ function preload() {
   // p5.js 會從 index.html 檔案的位置去尋找相對路徑
   spriteSheet = loadImage('1/stop/stop.png');
   spriteSheet2 = loadImage('2/stop/stop_2.png');
-  walkSheet = loadImage('1/walk/walk.png');
+  walkSheet = loadImage('1/Walk/walk.png');
   jumpSheet = loadImage('1/jump/jump.png');
   pushSheet = loadImage('1/push/push.png');
   smileSheet2 = loadImage('2/smile/smile_2.png');
@@ -286,7 +286,8 @@ function preload() {
   spriteSheet4 = loadImage('4/stop.png');
   spriteSheet4Ask = loadImage('4/ask.png');
   spriteSheet5 = loadImage('5/all.png');
-  bgMusic = loadSound('Minuet in G Major.mp3');
+  // 建議將檔名改為簡單格式，避免網頁讀取錯誤
+  bgMusic = loadSound('Minuet in G Major.mp3'); 
   teleportSound = loadSound('new-level-142995.mp3');
   successSound = loadSound('successed-295058.mp3');
   failSound = loadSound('invalid-selection-39351.mp3');
