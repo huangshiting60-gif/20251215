@@ -271,9 +271,9 @@ function preload() {
   // p5.js 會從 index.html 檔案的位置去尋找相對路徑
   spriteSheet = loadImage('1/stop/stop.png');
   spriteSheet2 = loadImage('2/stop/stop_2.png');
-  walkSheet = loadImage('1/Walk/walk.png');
-  jumpSheet = loadImage('1/jump/jump.png');
-  pushSheet = loadImage('1/push/push.png');
+  walkSheet = loadImage('1/walk/walk.png');
+  jumpSheet = loadImage('1/Jump/jump.png');
+  pushSheet = loadImage('1/Push/push.png');
   smileSheet2 = loadImage('2/smile/smile_2.png');
   fallDownSheet2 = loadImage('2/fall_down/fall_down_2.png');
   toolSheet = loadImage('1/tool/tool.png');
